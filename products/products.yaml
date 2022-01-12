@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: products
-          image: http://host.minikube.internal:5000/products
+          image: host.k3d.internal:5000/products
           ports:
             - containerPort: 8080
               name: 8080-tcp
